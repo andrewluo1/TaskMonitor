@@ -73,7 +73,7 @@ Cooldown (cooldown_time) controls how often a label may trigger again (default 5
 
 
 
-Acknowledgments
+# Acknowledgments
 
 MediaPipe Holistic & Face Mesh (Google)
 
