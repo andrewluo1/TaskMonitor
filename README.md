@@ -34,6 +34,8 @@ collect(class_name="Focused",     output_csv="data/coords.csv")
 collect(class_name="Distracted",  output_csv="data/coords.csv")
 collect(class_name="Not happy working", output_csv="data/coords.csv")
 
+You can either delete everything except for face.py and collect your own data, or you can use my own.
+
 Tips:
 
 Sit centered, good lighting, keep your face visible.
