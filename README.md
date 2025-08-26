@@ -64,19 +64,6 @@ Customizing actions & audio
 
 Actions are defined in realtime() inside the trigger_action(label) function.
 
-def trigger_action(label):
-    if label == "Distracted":
-        notification = Notify()
-        notification.title = "DETECTED BEING DISTRACTED"
-        notification.message = "BACK TO WORK BUDDY"
-        notification.audio = "sounds/backtowork.wav"  # path to your wav
-        notification.send()
-
-    elif label == "Not happy working":
-        sound_path2 = os.path.abspath("sounds/incorrect.wav")
-        player.play(sound_path2)  # non-blocking WAV playback
-
-
 Add or modify elif blocks for your labels.
 
 Place .wav files in sounds/ and update paths accordingly.
