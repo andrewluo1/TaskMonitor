@@ -16,13 +16,13 @@ Python 3.9–3.11 (Windows recommended)
 
 Webcam
 
-# create & activate a venv (recommended)
+# Create & activate a venv (recommended)
 python -m venv .venv
 . .venv/Scripts/activate   # PowerShell/CMD on Windows
 
-# install deps
-pip install opencv-python mediapipe numpy pandas scikit-learn notifypy
 
+# Install deps
+pip install opencv-python mediapipe numpy pandas scikit-learn notifypy
 
 If you see MediaPipe build/runtime warnings, they’re safe to ignore.
 
