@@ -1,4 +1,4 @@
-#Features
+# Features
 
 Data collection: Pose (33) + Face Mesh (468) landmarks → CSV (x, y, z, visibility for each).
 
