@@ -1,4 +1,4 @@
-Features
+#Features
 
 Data collection: Pose (33) + Face Mesh (468) landmarks → CSV (x, y, z, visibility for each).
 
@@ -16,12 +16,8 @@ Python 3.9–3.11 (Windows recommended)
 
 Webcam
 
-# Create & activate a venv (recommended)
-python -m venv .venv
-. .venv/Scripts/activate   # PowerShell/CMD on Windows
+# Install dependencies
 
-
-# Install deps
 pip install opencv-python mediapipe numpy pandas scikit-learn notifypy
 
 If you see MediaPipe build/runtime warnings, they’re safe to ignore.
